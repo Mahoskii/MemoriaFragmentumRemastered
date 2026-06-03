@@ -1,0 +1,4 @@
+repository "MemoriaFragmentumRemastered/MemoriaFragmentumRemastered@18967952492842@cloud"
+  path "/"
+    br "/main"
+    co "/main"
