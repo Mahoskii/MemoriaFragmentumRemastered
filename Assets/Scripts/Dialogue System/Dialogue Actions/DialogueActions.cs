@@ -21,42 +21,42 @@ public class DialogueActions : MonoBehaviour
     {
         switch (action)
         {
-            case ActionToPreform.StartMatch3:
-                //ActivateBoard.ChangeGamePanelActiveState?.Invoke(true);
-                break;
+            //case ActionToPreform.StartMatch3:
+            //    //ActivateBoard.ChangeGamePanelActiveState?.Invoke(true);
+            //    break;
 
-            case ActionToPreform.ChangeDay:
-                //DayCounter.Instance.ChangeDay();
-                break;
+            //case ActionToPreform.ChangeDay:
+            //    //DayCounter.Instance.ChangeDay();
+            //    break;
 
             case ActionToPreform.MoveCharacter:
                 //ChangePosition.Instance.MoveCharacter(move);
                 break;
 
-            case ActionToPreform.ChangeScene:
-                DialogueScenes.StartScene?.Invoke();
-                break;
+            //case ActionToPreform.ChangeScene:
+            //    DialogueScenes.StartScene?.Invoke();
+            //    break;
 
-            case ActionToPreform.EndGame:
-                //AudioManager.Instance.StopMusic("BGmusic");
-                //AudioManager.Instance.StopMusic("Cutscene");
-                //AudioManager.Instance.StopMusic("Match3");
-                SceneManager.LoadSceneAsync("GameOver");
-                break;
+            //case ActionToPreform.EndGame:
+            //    //AudioManager.Instance.StopMusic("BGmusic");
+            //    //AudioManager.Instance.StopMusic("Cutscene");
+            //    //AudioManager.Instance.StopMusic("Match3");
+            //    SceneManager.LoadSceneAsync("GameOver");
+            //    break;
 
-            case ActionToPreform.HelpTonyEnding:
-                //AudioManager.Instance.StopMusic("BGmusic");
-                //AudioManager.Instance.StopMusic("Cutscene");
-                //AudioManager.Instance.StopMusic("Match3");
-                SceneManager.LoadSceneAsync("TonyEnd");
-                break;
+            //case ActionToPreform.HelpTonyEnding:
+            //    //AudioManager.Instance.StopMusic("BGmusic");
+            //    //AudioManager.Instance.StopMusic("Cutscene");
+            //    //AudioManager.Instance.StopMusic("Match3");
+            //    SceneManager.LoadSceneAsync("TonyEnd");
+            //    break;
 
-            case ActionToPreform.HelpSunnyEnding:
-                //AudioManager.Instance.StopMusic("BGmusic");
-                //AudioManager.Instance.StopMusic("Cutscene");
-                //AudioManager.Instance.StopMusic("Match3");
-                SceneManager.LoadSceneAsync("SunnyEnd");
-                break;
+            //case ActionToPreform.HelpSunnyEnding:
+            //    //AudioManager.Instance.StopMusic("BGmusic");
+            //    //AudioManager.Instance.StopMusic("Cutscene");
+            //    //AudioManager.Instance.StopMusic("Match3");
+            //    SceneManager.LoadSceneAsync("SunnyEnd");
+            //    break;
 
             case ActionToPreform.RotateCharacter:
                 //rotate character
