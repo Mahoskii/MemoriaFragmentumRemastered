@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afda3682b41d7854faa6170aa1fb7b48, type: 3}
+  m_Name: Test Conversation
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableDialogue
+  isAnswer: 0
+  Dialogue:
+  - characterName: 0
+    characterPortrait: 0
+    lineToDisplay: Hello! I'm Player. nice to meet you
+    isPlayerChoice: 0
+    howManyOptions: 0
+    options: []
+    doAction: 0
+    actionToPreform: 0
+    movementInfo:
+    - charToMove: 0
+      locations: []
+      duration: []
+    rotationInfo: []
+    giveObjective: 0
+  - characterName: 1
+    characterPortrait: 1
+    lineToDisplay: I'm NPC1, it's a pleasure!
+    isPlayerChoice: 0
+    howManyOptions: 0
+    options: []
+    doAction: 0
+    actionToPreform: 0
+    movementInfo:
+    - charToMove: 0
+      locations: []
+      duration: []
+    rotationInfo: []
+    giveObjective: 0
+  - characterName: 0
+    characterPortrait: 0
+    lineToDisplay: Have a nice day NPC1
+    isPlayerChoice: 0
+    howManyOptions: 0
+    options: []
+    doAction: 0
+    actionToPreform: 0
+    movementInfo:
+    - charToMove: 0
+      locations: []
+      duration: []
+    rotationInfo: []
+    giveObjective: 0
+  - characterName: 1
+    characterPortrait: 1
+    lineToDisplay: You too player!
+    isPlayerChoice: 0
+    howManyOptions: 0
+    options: []
+    doAction: 0
+    actionToPreform: 0
+    movementInfo:
+    - charToMove: 0
+      locations: []
+      duration: []
+    rotationInfo: []
+    giveObjective: 0
