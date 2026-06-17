@@ -26,6 +26,11 @@ public class NPCDialogue : MonoBehaviour, IDialogue
         if (DialogueUI.Instance.IsDialogueBoxActive() && isPlayerNear && !DialogueScenes.IsInCutscene.Invoke()) //!ActivateBoard.MatchThreeStarted.Invoke() && !DialogueScenes.IsInCutscene.Invoke())
         {
             WhatToDisplay(dayCounter, nextDialogue); //DayCounter.Instance.currentDay, nextDialogue);
+
+        }
+        else if (Input.GetKeyDown("space") && allDialogues[dayCounter].Scenes[nextDialogue].Dialogue.Length > DialogueUI.Instance.lineIndex && allDialogues[dayCounter].Scenes[nextDialogue].Dialogue[DialogueUI.Instance.lineIndex].actionToPreform == ActionToPreform.MoveCharacter && !isPlayerNear)
+        {
+            isPlayerNear = true;
         }
         else if (Input.GetKeyDown(KeyCode.E) && isPlayerNear)
         {

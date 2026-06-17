@@ -30,7 +30,7 @@ public class DialogueActions : MonoBehaviour
             //    break;
 
             case ActionToPreform.MoveCharacter:
-                //ChangePosition.Instance.MoveCharacter(move);
+                ChangePosition.Instance.MoveCharacter(move);
                 break;
 
             //case ActionToPreform.ChangeScene:

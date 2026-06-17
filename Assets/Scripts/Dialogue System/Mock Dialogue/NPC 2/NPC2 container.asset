@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb67c7f0db911d64d8c6f0469c9259bf, type: 3}
+  m_Name: NPC2 container
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableDays
+  Scenes:
+  - {fileID: 11400000, guid: 92fe851a65dcf674a8b82cb5c2431fbe, type: 2}
+  - {fileID: 11400000, guid: 1edfcd883240ff643b2c45d11729ce45, type: 2}
+  - {fileID: 11400000, guid: aef52edb76ac8f44dbaa369bea1cc6de, type: 2}
+  - {fileID: 11400000, guid: b7b77af4021c3d84fb87197a49f1f7e1, type: 2}
