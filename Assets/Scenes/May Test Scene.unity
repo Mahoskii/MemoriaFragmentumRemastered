@@ -1768,7 +1768,7 @@ GameObject:
   - component: {fileID: 1204022219}
   m_Layer: 0
   m_Name: NPC 1
-  m_TagString: Players
+  m_TagString: NPC1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1922,6 +1922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b63ed5733876e694787103159a12ab42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  idName: NPC1
   allDialogues:
   - {fileID: 11400000, guid: 496ccf44f3ad94d45ac7ea4d0124294d, type: 2}
   dayCounter: 0
@@ -2156,7 +2157,7 @@ GameObject:
   - component: {fileID: 1611691269}
   m_Layer: 0
   m_Name: NPC 2
-  m_TagString: Players
+  m_TagString: NPC2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2310,6 +2311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b63ed5733876e694787103159a12ab42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  idName: NPC2
   allDialogues:
   - {fileID: 11400000, guid: f4c9339ee7613f04197f82033acb827c, type: 2}
   dayCounter: 0
@@ -2897,7 +2899,7 @@ GameObject:
   - component: {fileID: 1976490643}
   m_Layer: 0
   m_Name: NPC 3
-  m_TagString: Players
+  m_TagString: NPC3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3051,6 +3053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b63ed5733876e694787103159a12ab42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  idName: NPC3
   allDialogues:
   - {fileID: 11400000, guid: 5bcd461d82d9eaf41bd4f4af173cdcb2, type: 2}
   - {fileID: 11400000, guid: 31416dcf8aaec8c4fae53bbf42add978, type: 2}
