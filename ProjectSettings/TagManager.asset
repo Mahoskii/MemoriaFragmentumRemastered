@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Players
+  - NPC1
+  - NPC2
+  - NPC3
   layers:
   - Default
   - TransparentFX

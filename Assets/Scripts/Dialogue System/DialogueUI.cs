@@ -136,6 +136,7 @@ public class DialogueUI : MonoBehaviour
                 }
                 lineIndex = 0;
                 NextDialogue(1);
+                NPCDialogue.Istalking?.Invoke(false);
             }
 
         }
