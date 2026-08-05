@@ -26,7 +26,7 @@ public class DialogueLinesAndActions
 
     [Header("Objective Information")]
     public bool giveObjective;
-    //public PlayerObjective objective;
+    public PlayerObjective objective;
 }
 
 public enum CharacterPortraitsTags
