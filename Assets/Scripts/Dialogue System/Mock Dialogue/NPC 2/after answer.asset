@@ -25,3 +25,20 @@ MonoBehaviour:
     movementInfo: []
     rotationInfo: []
     giveObjective: 0
+    objective:
+      objective: 0
+      description: 
+  - characterName: 2
+    characterPortrait: 2
+    lineToDisplay: But you can play a game instead!
+    isPlayerChoice: 0
+    howManyOptions: 0
+    options: []
+    doAction: 1
+    actionToPreform: 3
+    movementInfo: []
+    rotationInfo: []
+    giveObjective: 0
+    objective:
+      objective: 0
+      description: 

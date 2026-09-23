@@ -33,7 +33,7 @@ public class IngredientPooler : MonoBehaviour
                 ingredientPool.Enqueue(ingr);
             }
 
-            ingredientsDictionary.Add(ingredient.ingredientTag, ingredientPool);
+            ingredientsDictionary.Add(ingredient.ingredientTag.ToString(), ingredientPool);
         }
     }
 

@@ -44,12 +44,12 @@ public class LevelScoreUIUpdater : MonoBehaviour
         string[] ingNames = new string[ingredientSprites.Count];
         for (int i = 0; i < ingredientSprites.Count; i++)
         {
-            ingNames[i] = ingredientSprites[i].ingName;
+            ingNames[i] = ingredientSprites[i].ingName.ToString();
         }
         for (int i = 0; i < lvlData[GameTurnController.Instance.currentLvl].lvlIngredientsList.Length; i++)
         {
             int index = Array.IndexOf(ingNames, lvlData[GameTurnController.Instance.currentLvl].lvlIngredientsList[i].ToString());
-            ingredientSpritesDictionary.Add(ingredientSprites[index].ingName, ingredientSprites[index].ingSprite);
+            ingredientSpritesDictionary.Add(ingredientSprites[index].ingName.ToString(), ingredientSprites[index].ingSprite);
 
         }
     }

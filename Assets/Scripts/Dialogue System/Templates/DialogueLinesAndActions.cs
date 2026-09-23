@@ -95,7 +95,7 @@ public enum CharacterNames
 public enum ActionToPreform
 {
     NoAction = 0,
-    //StartMatch3,
+    StartMatch3 = 3,
     //ChangeDay,
     MoveCharacter = 1,
     //ChangeScene,
