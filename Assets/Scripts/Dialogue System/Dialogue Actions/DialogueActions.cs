@@ -21,9 +21,9 @@ public class DialogueActions : MonoBehaviour
     {
         switch (action)
         {
-            //case ActionToPreform.StartMatch3:
-            //    //ActivateBoard.ChangeGamePanelActiveState?.Invoke(true);
-            //    break;
+            case ActionToPreform.StartMatch3:
+                ActivateBoard.ChangeGamePanelActiveState?.Invoke(true);
+                break;
 
             //case ActionToPreform.ChangeDay:
             //    //DayCounter.Instance.ChangeDay();

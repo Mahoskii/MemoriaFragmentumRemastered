@@ -5,6 +5,6 @@ using UnityEngine;
 [System.Serializable]
 public class IngredientUIInfo
 {
-    public string ingName;
+    public IngredientType ingName;
     public Sprite ingSprite;
 }
