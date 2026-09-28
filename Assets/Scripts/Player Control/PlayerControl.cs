@@ -13,7 +13,7 @@ public class PlayerControl : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!DialogueUI.Instance.isInDialogue) // && !ActivateBoard.MatchThreeStarted.Invoke() && !DayUI.IsDayChanging() && !ToggleMenu.Instance.isOpen && !GetPlayerName.Instance.isActive)
+        if (!DialogueUI.Instance.isInDialogue && !ActivateBoard.MatchThreeStarted.Invoke()) //&& !DayUI.IsDayChanging() && !ToggleMenu.Instance.isOpen && !GetPlayerName.Instance.isActive)
         {
            MoveFunction();
         }

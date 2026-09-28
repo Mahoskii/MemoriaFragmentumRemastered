@@ -45,6 +45,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 1297425061
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []

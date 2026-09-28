@@ -113,13 +113,13 @@ public class GameTurnController : MonoBehaviour
         backGroundPanel.SetActive(false);
         victoryPanel.SetActive(false);
         ActivateBoard.ChangeGamePanelActiveState?.Invoke(false);
-        //SwitchCamera.MainCamActive?.Invoke();
+        SwitchCamera.MainCamActive?.Invoke();
         //AudioManager.Instance.StopMusic("Match3");
         //AudioManager.Instance.PlayMusic("BGmusic");
-        //if (DialogueScenes.IsInCutscene.Invoke())
-        //{
-        //    DialogueUI.Instance.ToggleDialogueBox(true);
-        //}
+        if (DialogueScenes.IsInCutscene.Invoke())
+        {
+            DialogueUI.Instance.ToggleDialogueBox(true);
+        }
         DialogueScenes.StartScene?.Invoke();
     }
     public void OnGameLose()
